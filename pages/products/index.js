@@ -8,8 +8,7 @@ export default function ProductsPage() {
   return (
     <div>
       <Pagination page={page || 1} />
-      <p>some stuff on index,,,,</p>
-      <Products />
+      <Products page={page || 1} />
       <Pagination page={page || 1} />
     </div>
     // make the same thing show up on home page - see index.js
